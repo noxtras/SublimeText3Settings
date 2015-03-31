@@ -1,0 +1,20 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"GitGutter",
+		"Glue",
+		"Markdown Preview",
+		"Package Control",
+		"Predawn",
+		"ReactJS",
+		"Sass",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeREPL",
+		"Theme - Soda"
+	]
+}
