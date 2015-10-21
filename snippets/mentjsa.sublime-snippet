@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+// ${1:name}
+'use strict';
+
+import { window } from 'mjs/dom_refs';
+import mAngularFormDemo from 'mjs/angular_form_demo';
+import angularBootstrap from 'mjs/angular_bootstrap';
+
+window.M.on('${1:name}', function(viewConf){
+  angularBootstrap(viewConf.selector, [mAngularFormDemo.name]);
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>menta</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.js</scope> -->
+</snippet>

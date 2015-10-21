@@ -1,20 +1,30 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
+		"auto-save",
 		"Babel",
-		"GitGutter",
+		"Babel Snippets",
+		"Better CoffeeScript",
+		"Case Conversion",
+		"Coffee2Js",
 		"Glue",
+		"Handlebars",
 		"HexViewer",
 		"Markdown Preview",
 		"Package Control",
 		"Predawn",
+		"Predawn Monokai",
 		"ReactJS",
 		"Sass",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-semistandard",
+		"SublimeLinter-jshint",
+		"SublimeLinter-rubocop",
 		"SublimeREPL",
 		"Theme - Soda"
 	]

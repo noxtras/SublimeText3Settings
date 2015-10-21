@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+
+- content_for :js_at_bottom do
+  = javascript_include_tag 'mpacked/${1:name_one}'
+  :javascript
+    M.run('${1:name_two}', {
+      // pass view config here
+    });
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ment</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.haml</scope>
+</snippet>
